@@ -13,7 +13,7 @@ useEffect( () =>{
                              setUsers(data.results);
                               console.log (data.results);
     const names =data.results.map(user => user.name);
-   // console.log(names);
+   console.log(names);
   })
   .catch(error => window.alert(error))
 }, [ ] )
