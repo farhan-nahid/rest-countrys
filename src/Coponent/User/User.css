@@ -1,0 +1,29 @@
+h5 {
+  margin: 0;
+}
+
+h3 {
+  margin: 5px;
+}
+
+.details-btn {
+  width: 150px;
+  background-color: coral;
+  color: aqua;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.details-btn:hover {
+  background-color: azure;
+  color: #000;
+  transition: 1.5s;
+}
+
+.user {
+  padding: 30px;
+  border-bottom: 1px solid gray;
+}
